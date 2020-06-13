@@ -91,8 +91,10 @@ async function generateReadme() {
         licenseResult += `- **[${licenseNameSplit[i]}](${licenseUrlSplit[i]})** \n`
         licenseBadge += `![License](https://img.shields.io/badge/License-${licenseNameSplit[i].split(' ').join('%20')}-blue)`
     }
+    
+    //In the develop folder, there is seprate index.js to make .md file under your first name!
 
-    fs.writeFile( fileName, 
+    fs.writeFile( 'README.md', 
         `# ${questions.title}`+ '\n' +
         '## Description' + '\n' + questions.description + '\n' + '\n' +
         '## Table of Contents' + '\n' + tocResult + '\n' + 
