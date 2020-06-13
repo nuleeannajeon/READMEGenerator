@@ -19,6 +19,8 @@ When creating an open source project on GitHub, it is important to have a qualit
 ```
 If all questions prompted are answers as instructed, the readme generator will create the readme me as requested.
 ```
+### Demo Video
+![readme demo](./assets/readme-generator-demo.gif)
 
 ## License
 ![License](https://img.shields.io/badge/License-MIT%20License-blue)
